@@ -1,0 +1,192 @@
+.idioma{
+
+    position: absolute;
+    width: 1024px;
+    height: 100px;
+    left: calc(50% - 1024px/2);
+    top: 0px;
+    background: #222222;
+    color: blanchedalmond;
+
+}
+
+.front{
+    position:relative;
+    width: 1024px;
+    height: 120px;
+    left: calc(50% - 1024px/2);
+    top: 100px;
+
+    background: #F0A83E;
+}
+
+.span2{
+    color: white;
+}
+.span7{
+    color: #F0A83E;
+}
+
+.img{
+    position: absolute;
+    width: 1025px;
+    height: 409px;
+    left: calc(50% - 1025px/2 + 0.5px);
+    top: 250px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+  
+}
+
+.img2{
+    position: absolute;
+    width: 1025px;
+    height: 409px;
+    left: calc(50% - 1025px/2 + 0.5px);
+    top: 330px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.img3{
+    position: absolute;
+    width: 406px;
+    height: 47px;
+    left: 200px;
+    top: 700px;
+    
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+
+
+
+color: #3C2313;
+}
+
+.button{
+    
+    width: 141px;
+    height: 20px;
+    left: 767px;
+    top: 334px;
+
+    background: #F0A83E;
+    border-radius: 5px;
+}
+.p{
+    position: absolute;
+    width: 406px;
+    height: 47px;
+    left: 200px;
+    top: 800px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.churrasquito{
+    position: absolute;
+    width: 1025px;
+    height: 409px;
+    left: calc(50% - 1800px/2 + 0.5px);
+    top: 900px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.p2{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #3C2313;
+}
+
+.dinero{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #F0A83E;
+}
+
+.footer{
+    position: absolute;
+    width: 1024px;
+    height: 450px;
+    left: calc(50% - 1024px/2);
+    bottom: 17px;
+    top: 2000px;
+
+    background: #3C2313;
+}
+
+.icons{
+  
+    width: 58px;
+    height: 57px;
+    left: calc(50% - 58px/2 - 409px);
+    bottom: 217px;
+    font-size: 30PX;
+    background: #8A8787;
+    border-radius: 29.5px;
+    color:white
+}
+
+.span4{
+    
+    width: 88px;
+    height: 23px;
+    left: calc(50% - 88px/2 - 307px);
+    bottom: 255px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.span5{
+  
+    width: 73px;
+    height: 12px;
+    left: calc(50% - 73px/2 - 314.5px);
+    bottom: 243px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #8A8787;
+}
+
+.dr{
+    position: relative;
+    width: 1024px;
+    height: 20px;
+    left: calc(50% - 1024px/2);
+    bottom: 0px;
+    text-align: center;
+    background: #222222;
+    color: white;
+}
