@@ -1,110 +1,225 @@
-.idioma{
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.idioma{
+    
+    padding-left: 46px;
+    padding-right: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
     position: absolute;
-    width: 1024px;
-    height: 100px;
-    left: calc(50% - 1024px/2);
+    width: 100%;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    
     top: 0px;
     background: #222222;
     color: blanchedalmond;
 
 }
 
-.front{
-    position:relative;
-    width: 1024px;
-    height: 120px;
-    left: calc(50% - 1024px/2);
-    top: 100px;
+.id{
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+}
 
+.front{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 40px;
+    padding-top: 30px;
+    width: 100%;
+    height: 150px;
     background: #F0A83E;
 }
 
-.span2{
-    color: white;
-}
-.span7{
-    color: #F0A83E;
+.title{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100px;
 }
 
-.img{
-    position: absolute;
-    width: 1025px;
-    height: 409px;
-    left: calc(50% - 1025px/2 + 0.5px);
-    top: 250px;
-    text-align: center;
+.span1{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-  
-}
+    font-size: 40px;
+    line-height: 23px;
 
-.img2{
-    position: absolute;
-    width: 1025px;
-    height: 409px;
-    left: calc(50% - 1025px/2 + 0.5px);
-    top: 330px;
-    text-align: center;
+    color: #3C2313;
+}
+.span2{
+    font-family: Roboto;
+    font-style: normal;
     font-weight: bold;
+    font-size: 30px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+        
+}.span2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+        
+}
+
+.ct{
+    display: flex;
+    width:500px;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+    
+
+}
+
+.img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.title2{
+    position: absolute;
+    width: 365px;
+    height: 54px;
+    right: 40px;
+    top: 350px;
+    padding-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #3C2313;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.pc{
+    position: absolute;
+    width: 365px;
+    height: 54px;
+    right: 40px;
+    top: 430px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 19px;
+
+    text-align: center;
+
+    color: #3C2313;
+
+}
+
+.buttom{
+    position:absolute;
+    width: 141px;
+    height: 49px;
+    left: 1060px;
+    top: 480px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #F0A83E;
+    border-radius: 5px;
+}
+
+.logo{
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
     
 }
 
-.img3{
-    position: absolute;
-    width: 406px;
-    height: 47px;
-    left: 200px;
-    top: 700px;
-    
+.l{
+   font-size: 100px;
+   
 
+}
+
+
+.title3{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 47px;
 
-
-
-color: #3C2313;
+    color: #3C2313;
 }
 
-.button{
+.nav{
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 300px;
     
-    width: 141px;
-    height: 20px;
-    left: 767px;
-    top: 334px;
 
-    background: #F0A83E;
-    border-radius: 5px;
 }
-.p{
-    position: absolute;
-    width: 406px;
-    height: 47px;
-    left: 200px;
-    top: 800px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+
+
+.comidas{
+    display: flex;
+    justify-content:space-around;
     
-}
-
-.churrasquito{
-    position: absolute;
-    width: 1025px;
-    height: 409px;
-    left: calc(50% - 1800px/2 + 0.5px);
-    top: 900px;
-    text-align: center;
-    font-weight: bold;
-
-}
-
-.p2{
+    flex-direction: row;
     
+
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    padding-top: 100px;
+    
+    padding-bottom: 100px;
+}
+
+.pc2{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -114,8 +229,7 @@ color: #3C2313;
     color: #3C2313;
 }
 
-.dinero{
-
+.gold{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -125,36 +239,107 @@ color: #3C2313;
     color: #F0A83E;
 }
 
+.contacto{
+   
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+}
+
+.text{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 340px;
+    height: 40px;
+    left: calc(50% - 340px/2 + 1px);
+    top: calc(50% - 40px/2 + 275.5px);
+    
+    background: #3C2313;
+    border-radius: 15px
+}
+
+.bt{
+    width: 110px;
+    height: 34px;
+    left: calc(50% - 110px/2 - 52px);
+    top: calc(50% - 34px/2 + 453.5px);
+    
+    background: #8A8787;
+    border-radius: 15px;
+    width: 63px;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+
+
+color: #FFFFFF;
+
+}
+
+.btn{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding-bottom: 30px;
+}
+
+.env{
+    background-color: #F0A83E;
+}
+
+.rst{
+
+    background: #8A8787;
+
+}
+
 .footer{
-    position: absolute;
-    width: 1024px;
-    height: 450px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
     left: calc(50% - 1024px/2);
     bottom: 17px;
-    top: 2000px;
+    padding-bottom: 30px;
 
     background: #3C2313;
 }
 
-.icons{
-  
-    width: 58px;
-    height: 57px;
-    left: calc(50% - 58px/2 - 409px);
-    bottom: 217px;
-    font-size: 30PX;
-    background: #8A8787;
-    border-radius: 29.5px;
-    color:white
+
+.main{
+    padding-bottom: 100px;
+    padding-bottom: 40px;
+    
 }
 
-.span4{
-    
-    width: 88px;
-    height: 23px;
-    left: calc(50% - 88px/2 - 307px);
-    bottom: 255px;
+.buscar{
+    padding-right: 50px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: blanchedalmond;
+    width: 100%;
+    height: 60px;
+    left: calc(50% - 1024px/2);
+    top: calc(50% - 60px/2 + 575.5px);
 
+    background: #F0A83E;
+}
+
+h2{
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -162,31 +347,90 @@ color: #3C2313;
     line-height: 23px;
 
     color: #FFFFFF;
+
 }
 
-.span5{
-  
-    width: 73px;
-    height: 12px;
-    left: calc(50% - 73px/2 - 314.5px);
-    bottom: 243px;
+.sub{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    
+}
 
+.s{
+    background-color: blanchedalmond;
+}
+
+.ss{
+    width: 120px;
+    background-color: #3C2313;
+    ;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.final{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.direccion{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.local{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.iii{
+    font-size: 70px;
+    color: blanchedalmond;
+
+}
+
+.art{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+h5{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 10px;
     line-height: 12px;
-
     color: #8A8787;
+
 }
 
-.dr{
-    position: relative;
-    width: 1024px;
-    height: 20px;
-    left: calc(50% - 1024px/2);
-    bottom: 0px;
-    text-align: center;
-    background: #222222;
-    color: white;
+.down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.front2{
+    position: absolute;
+    top: 1920px;
+    left: 1000px;
+    height: 70px;
 }
